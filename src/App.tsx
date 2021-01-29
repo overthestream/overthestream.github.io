@@ -1,5 +1,5 @@
-import './App.scss';
+import Header from './base/Header';
 
-const App: React.FC = () => <div>hi</div>;
+const App: React.FC = () => <Header />;
 
 export default App;

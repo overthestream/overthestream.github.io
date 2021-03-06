@@ -22,11 +22,10 @@ const Header: React.FC = () => {
     <HeaderBackgroundWrapper isActive={active}>
       <HeaderLayoutWrapper>
         <Link to="/">
-          <Logo alt="술안주 저장소" />
+          <Logo alt="" />
         </Link>
         <HeaderItemBar>
-          <HeaderLink to="/">소개</HeaderLink>
-          <HeaderLink to="/explore">탐색</HeaderLink>
+          <HeaderLink to="/"></HeaderLink>
         </HeaderItemBar>
       </HeaderLayoutWrapper>
     </HeaderBackgroundWrapper>
